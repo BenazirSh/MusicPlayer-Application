@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="30dp"
+        android:background="#20426f"
+        android:gravity="center"
+        android:text="Most Played"
+        android:textColor="#FDFD96"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="30dp"
+        android:background="#FDFD96"
+        android:gravity="center"
+        android:text="Recently Added"
+        android:textColor="#20426f"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

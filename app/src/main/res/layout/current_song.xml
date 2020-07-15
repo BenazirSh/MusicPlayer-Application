@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/currentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textPlaying"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Being Played"
+        android:textColor="#098888"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@drawable/headphones" />
+
+    <ImageView
+        android:id="@+id/playingIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/playing" />
+
+
+</LinearLayout>
